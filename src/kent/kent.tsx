@@ -334,7 +334,7 @@ const {total}=  useCart() as any
                             style={{ width: '26%' }}
                           >
                             <option
-                              value={'i'}
+                              value={paymentInfo.prefix}
                               onClick={(e: any) => {
                                 setPaymentInfo({
                                   ...paymentInfo,
